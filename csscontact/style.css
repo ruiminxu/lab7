@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-form{
+    background-color: black;
+    height: 890px;
+    text-align: center;
+}
+
+.contact-form h1{
+    color: white;
+    padding-top: 15%;
+    font-size: 200px;
+}
+
+.contact-form p{
+    color: white;
+    font-size: 65px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .contact-form{
+        height: 890px;
+        
+    }
+
+    .contact-form h1{
+        font-size: 3rem;
+        margin-bottom: 2em;
+    }
+
+    .contact-form p{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 414px)
+{
+    .contact-form{
+        height: 890px;
+        
+    }
+
+    .contact-form h1{
+        font-size: 3rem;
+        margin-bottom: 2em;
+    }
+
+    .contact-form p{
+        font-size: 1.2rem;
+    }
+}

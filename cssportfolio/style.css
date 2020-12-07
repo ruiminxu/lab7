@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.code{
+    background-color: black;
+    height: 890px;
+    text-align: center;
+}
+
+.code h1{
+    padding-top: 5rem;
+    color: white;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 768px)
+{
+    .code{
+        height: 
+        890px;
+    }
+
+    .code a img{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 414px)
+{
+    .code{
+        height: 
+        890px;
+    }
+
+    .code h1{
+        font-size: 2rem;
+    }
+
+    .code a img{
+        width: 50%;
+    }
+}

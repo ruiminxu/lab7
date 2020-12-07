@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.under-container{
+    height: 890px;
+}
+
+.resume{
+    text-align: center;
+    background-color: black;
+    height: 890px;
+    
+    
+}
+
+.resume img{
+    
+    margin-top: 2em;
+    max-width: 80%;
+    width: 37%;
+    border-radius: 2%;
+    
+}
+
+@media screen and (max-width: 1325px)
+{ 
+    
+    .resume{
+        height: 890px;
+       
+    }
+    
+    .resume img{
+        margin-top: 2.2em;
+        width: 50%;
+    
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .resume{
+        height: 890px;
+       
+    }
+
+    .resume img{
+        margin: 9em auto;
+        
+    }
+
+}
+
+
+@media screen and (max-width: 414px)
+{
+    .resume{
+        height: 890px;
+    }
+
+    .resume img{
+        margin: 10em auto;
+        width: 90%;
+    }
+}
